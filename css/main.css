@@ -47,8 +47,12 @@ cite {
   font-style: italic;
 }
 
-q {
-  content: open-quote, close-quote;
+q ::before {
+  content: "“", "“";
+}
+
+q ::after {
+  content: "”", "”";
 }
 
 blockquote {

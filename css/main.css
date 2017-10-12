@@ -3,7 +3,7 @@ html {
   font-family: "PT Serif", serif;
   line-height: 1.5;
   font-size: 1.125rem;
-  font-style: normal;
+  font-weight: normal;
   color: #222;
 }
 
@@ -16,12 +16,12 @@ h1 {
 
 nav {
   font-family: "PT Sans", sans-serif;
-  font-weight: bold;
 }
 
-a:link {
-   text-decoration: none;
-   color: #8f2440;
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #8f2440;
 }
 
 a:hover {

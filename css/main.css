@@ -3,6 +3,7 @@ html {
   font-family: "PT Serif", serif;
   line-height: 1.5;
   font-size: 1.125rem;
+  font-style: normal;
   color: #222;
 }
 
@@ -13,14 +14,17 @@ h1 {
   color: #3f1622;
 }
 
-nav a:link {
+nav {
   font-family: "PT Sans", sans-serif;
   font-weight: bold;
-  text-decoration: none;
-  color: #8f2440;
 }
 
-nav a:hover {
+a:link {
+   text-decoration: none;
+   color: #8f2440;
+}
+
+a:hover {
   color: #3f1622;
   text-decoration: underline;
 }
@@ -91,16 +95,4 @@ dt {
 
 footer {
   font-size: .8rem;
-}
-
-footer a:link {
-  text-decoration: none;
-  color: #8f2440;
-  font-style: normal;
-}
-
-footer a:hover {
-  color: #3f1622;
-  text-decoration: underline;
-  font-style: normal;
 }

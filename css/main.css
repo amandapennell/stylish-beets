@@ -47,12 +47,16 @@ cite {
   font-style: italic;
 }
 
-q ::before {
-  content: "“";
+q {
+  quotes: "“" "”";
 }
 
-q ::after {
-  content: "”";
+q:before {
+    content: open-quote;
+}
+
+q:after {
+    content: close-quote;
 }
 
 blockquote {
@@ -71,7 +75,7 @@ h2 {
   color: #3f1622;
 }
 
-#common-varieties ol {
+h2 ol {
   list-style-type: lower-greek;
 }
 
@@ -83,8 +87,9 @@ dt {
   font-weight: bold;
 }
 
-#tags ul {
+h2 ul {
   font-size: .8rem;
+  list-style-type: circle;
 }
 
 footer {
@@ -94,9 +99,11 @@ footer {
 footer a:link {
   text-decoration: none;
   color: #8f2440;
+  font-style: normal;
 }
 
 footer a:hover {
   color: #3f1622;
   text-decoration: underline;
+  font-style: normal;
 }

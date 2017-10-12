@@ -8,18 +8,11 @@ html {
 header h1 {
   font-family: "PT Sans", sans-serif;
   font-weight: bold;
-  font-size: 1.3rem;
   color: #3f1622;
-}
-
-nav {
-  font-family: "PT Sans", sans-serif;
-  font-weight: bold;
-  font-size: 1.125rem;
+  font-size: 1.3rem;
 }
 
 a {
-  font-weight: bold;
   font-size: 1.125rem;
   text-decoration: none;
   color: #8f2440;
@@ -48,6 +41,7 @@ figcaption {
 article header {
   font-weight: bold;
   font-size: 1.3rem;
+  color: #222;
 }
 
 q {

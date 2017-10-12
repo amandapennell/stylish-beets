@@ -48,11 +48,11 @@ cite {
 }
 
 q ::before {
-  content: "“", "“";
+  content: "“";
 }
 
 q ::after {
-  content: "”", "”";
+  content: "”";
 }
 
 blockquote {
@@ -62,4 +62,41 @@ blockquote {
 
 blockquote footer {
   font-size: .8rem;
+}
+
+h2 {
+  font-family: "PT Sans", sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #3f1622;
+}
+
+#common-varieties ol {
+  list-style-type: lower-greek;
+}
+
+.data{
+  font-style: italic;
+}
+
+dt {
+  font-weight: bold;
+}
+
+#tags ul {
+  font-size: .8rem;
+}
+
+footer {
+  font-size: .8rem;
+}
+
+footer a:link {
+  text-decoration: none;
+  color: #8f2440;
+}
+
+footer a:hover {
+  color: #3f1622;
+  text-decoration: underline;
 }

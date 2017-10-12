@@ -43,20 +43,16 @@ article header {
   font-size: 1.5rem;
 }
 
-cite {
-  font-style: italic;
-}
-
 q {
   quotes: "“" "”";
 }
 
-q:before {
-    content: open-quote;
+q::before {
+  content: open-quote;
 }
 
-q:after {
-    content: close-quote;
+q::after {
+  content: close-quote;
 }
 
 blockquote {
@@ -66,6 +62,7 @@ blockquote {
 
 blockquote footer {
   font-size: .8rem;
+  font-style: italic;
 }
 
 h2 {
@@ -94,7 +91,6 @@ dt {
 
 footer {
   font-size: .8rem;
-  font-style: normal;
 }
 
 footer a:link {
